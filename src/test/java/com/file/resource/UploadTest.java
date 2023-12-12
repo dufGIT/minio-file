@@ -29,6 +29,7 @@ public class UploadTest {
     @Resource
     private IFileUploadProcess fileUploadProcess;
 
+    // 获取文件流的md5
     @Test
     public void getWholeFileMd5() {
         // 创建File对象
@@ -118,5 +119,4 @@ public class UploadTest {
             e.printStackTrace();
         }
     }
-
 }

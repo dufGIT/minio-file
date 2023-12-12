@@ -1,8 +1,13 @@
 package com.file.resource.app;
 
+import io.minio.errors.*;
 import org.springframework.http.ResponseEntity;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 
 /**
  * @Author df
@@ -11,11 +16,6 @@ import javax.servlet.http.HttpServletResponse;
  */
 public interface IDownloadProcess {
 
-    ResponseEntity downloadFile(HttpServletResponse response, String md5,
-                                String fileType,
-                                String customUuid,
-                                String resourceUuid);
+    ResponseEntity downloadFile(String filename, String range, HttpServletRequest request, HttpServletResponse response) throws IOException, InvalidKeyException, InvalidResponseException, InsufficientDataException, NoSuchAlgorithmException, ServerException, InternalException, XmlParserException, ErrorResponseException, Exception;
 
-
-    void downloadAll(Integer isValid);
 }
