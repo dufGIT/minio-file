@@ -1,4 +1,4 @@
-package com.file.resource.app;
+package com.file.resource.application;
 
 import io.minio.errors.*;
 import org.springframework.http.ResponseEntity;

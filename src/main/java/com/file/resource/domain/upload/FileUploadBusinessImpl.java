@@ -1,9 +1,9 @@
 package com.file.resource.domain.upload;
 
 
-import com.file.resource.common.Constants;
-import com.file.resource.common.Result;
-import com.file.resource.config.MinioConfig;
+import com.file.resource.types.common.Constants;
+import com.file.resource.types.common.Result;
+import com.file.resource.app.MinioConfig;
 import com.file.resource.infrastructure.RedisDao;
 import com.file.resource.util.MinioUtils;
 import io.minio.ComposeSource;

@@ -1,4 +1,4 @@
-package com.file.resource.common;
+package com.file.resource.types.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

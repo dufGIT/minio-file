@@ -1,7 +1,7 @@
-package com.file.resource.exception;
+package com.file.resource.types.exception;
 
-import com.file.resource.common.Constants;
-import com.file.resource.common.Result;
+import com.file.resource.types.common.Constants;
+import com.file.resource.types.common.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindingResult;

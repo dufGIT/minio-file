@@ -1,4 +1,4 @@
-package com.file.resource.config;
+package com.file.resource.app;
 
 import io.minio.MinioClient;
 import lombok.Data;

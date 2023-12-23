@@ -1,6 +1,6 @@
 package com.file.resource.domain.upload;
 
-import com.file.resource.common.Result;
+import com.file.resource.types.common.Result;
 import org.springframework.web.multipart.MultipartFile;
 
 /**

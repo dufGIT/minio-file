@@ -1,27 +1,19 @@
-package com.file.resource.app.service;
+package com.file.resource.application.service;
 
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.file.resource.app.IDownloadProcess;
-import com.file.resource.config.MinioConfig;
+import com.file.resource.application.IDownloadProcess;
+import com.file.resource.app.MinioConfig;
 import io.minio.*;
-import io.minio.errors.*;
-import io.minio.messages.Item;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.catalina.connector.ClientAbortException;
-import org.apache.commons.io.FileUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
-import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
 
 /**
  * @Author df
@@ -141,5 +133,4 @@ public class DownloadProcessImpl implements IDownloadProcess {
         }
         return responseEntity;
     }
-
 }

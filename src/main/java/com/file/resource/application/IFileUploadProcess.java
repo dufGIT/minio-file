@@ -1,6 +1,6 @@
-package com.file.resource.app;
+package com.file.resource.application;
 
-import com.file.resource.common.Result;
+import com.file.resource.types.common.Result;
 import com.file.resource.interfaces.upload.req.InitSliceDataReq;
 import com.file.resource.interfaces.upload.req.UploadFileReq;
 

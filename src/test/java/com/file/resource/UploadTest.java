@@ -1,7 +1,7 @@
 package com.file.resource;
 
-import com.file.resource.app.IFileUploadProcess;
-import com.file.resource.common.Result;
+import com.file.resource.application.IFileUploadProcess;
+import com.file.resource.types.common.Result;
 import com.file.resource.interfaces.upload.req.InitSliceDataReq;
 import com.file.resource.interfaces.upload.req.UploadFileReq;
 import lombok.extern.slf4j.Slf4j;

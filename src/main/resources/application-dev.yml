@@ -14,9 +14,9 @@ spring:
 
 #minio配置
 minio:
-  access-key: 3qUk0XPgTKLxx8RR
-  secret-key:  joUG6ShKxJNZtjqdzrnpO373czSfIiRP
-  url: http://192.168.5.17:9008  #访问地址
+  access-key: 3qUk0XPgTKLxx8Rf
+  secret-key:  joUG6ShKxJNZtjqdzrnpO373czSfIiRr
+  url: http://127.0.0.1:9008  #访问地址
   bucket-name: formal-file
   bucket-name-slice: slice-file
 

@@ -1,9 +1,9 @@
-package com.file.resource.app.service;
+package com.file.resource.application.service;
 
-import com.file.resource.common.Constants;
-import com.file.resource.common.Result;
-import com.file.resource.app.IFileUploadProcess;
-import com.file.resource.config.MinioConfig;
+import com.file.resource.types.common.Constants;
+import com.file.resource.types.common.Result;
+import com.file.resource.application.IFileUploadProcess;
+import com.file.resource.app.MinioConfig;
 import com.file.resource.domain.resource.TResourceService;
 import com.file.resource.domain.upload.IFileUploadBusiness;
 import com.file.resource.infrastructure.po.TResourceFile;
